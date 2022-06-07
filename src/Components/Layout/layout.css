@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  min-height: 600px;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  background-color: rgb(76, 94, 85);
+  text-align: center;
+  padding-top: 20px;
+}
+
+.home,
+.GameCarde,
+.Chingachung,
+.MemoryGame {
+  font-size: 40px;
+  padding: 10%;
+  margin-bottom: 40px;
+  color: rgb(71, 14, 4);
+}
+
+.home:hover,
+.GameCarde:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: rgb(16, 102, 102);
+}
